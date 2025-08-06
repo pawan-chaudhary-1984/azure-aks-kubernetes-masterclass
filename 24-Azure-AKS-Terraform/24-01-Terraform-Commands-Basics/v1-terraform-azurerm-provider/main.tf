@@ -8,5 +8,11 @@ provider "azurerm" {
   features {}
 }
 
+# Create a resource group
+resource "azurerm_resource_group" "aks-rg2" {
+  name     = "aks-rg2-tf"
+  location = "East US"
+}
+
 
 

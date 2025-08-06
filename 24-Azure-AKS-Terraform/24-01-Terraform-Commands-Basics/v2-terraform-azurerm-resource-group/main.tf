@@ -10,8 +10,8 @@ provider "azurerm" {
  
 # Create a Azure Resource Group
 resource "azurerm_resource_group" "aks-rg2" {
-  name     = "aks-rg2-tf2"
-  location = "Central US"
+  name     = "aks-rg2-tf"
+  location = "East US"
 
   # Add Tags
   tags = {

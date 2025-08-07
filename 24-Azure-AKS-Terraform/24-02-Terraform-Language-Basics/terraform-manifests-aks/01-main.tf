@@ -29,7 +29,7 @@ terraform {
   backend "azurerm" {
     resource_group_name   = "terraform-storage-rg"
     storage_account_name  = "terraformstorageacount"
-    container_name        = "tfstatterraformstorageacountefiles"
+    container_name        = "containerbypawan"
     key                   = "terraform.tfstate"
   }
 }

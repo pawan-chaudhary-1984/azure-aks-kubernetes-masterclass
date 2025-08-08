@@ -7,7 +7,7 @@
 variable "location" {
   type = string
   description = "Azure Region where all these resources will be provisioned"
-  default = "Central US"
+  default = "East US"
 }
 
 # Azure Resource Group Name
@@ -43,7 +43,7 @@ variable "windows_admin_username" {
 # Windows Admin Password for k8s worker nodes
 variable "windows_admin_password" {
   type = string
-  default = "StackSimplify@102"
+  default = "HiIAmFromGorakhpur@1984"
   description = "This variable defines the Windows admin password k8s Worker nodes"  
 }
 

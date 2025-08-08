@@ -102,8 +102,8 @@ resource "azurerm_kubernetes_cluster" "aks_cluster" {
     network_policy = "calico"
     load_balancer_sku = "standard"
     load_balancer_profile {
-      managed_outbound_ip_count = 1
-      outbound_ip_address_ids = [azurerm_public_ip.aks_lb_public_ip.id]
+      # managed_outbound_ip_count = 1
+      # outbound_ip_address_ids = [azurerm_public_ip.aks_lb_public_ip.id]
     }
   }
 

@@ -37,7 +37,7 @@ variable "ssh_public_key" {
 variable "windows_admin_username" {
   type = string
   default = "azureuser"
-  description = "This variable defines the Windows admin username k8s Worker nodes"  
+  description = "This variable defines the Windows admin username k8s Worker nodes."  
 }
 
 # Windows Admin Password for k8s worker nodes

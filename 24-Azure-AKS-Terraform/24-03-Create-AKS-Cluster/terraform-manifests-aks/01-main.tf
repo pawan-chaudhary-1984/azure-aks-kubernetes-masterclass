@@ -53,3 +53,6 @@ resource "random_pet" "aksrandom" {
 
 }
 
+
+# Fetch details about the current Azure CLI logged-in account
+data "azurerm_client_config" "current" {}

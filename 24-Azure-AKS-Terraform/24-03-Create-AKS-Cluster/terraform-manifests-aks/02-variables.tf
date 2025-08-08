@@ -43,7 +43,7 @@ variable "windows_admin_username" {
 # Windows Admin Password for k8s worker nodes
 variable "windows_admin_password" {
   type = string
-  default = "StackSimplify@102"  # Updated June 2023
+  default = "HiIAmFromGorakhpur@1985"  # Updated June 2023
   description = "This variable defines the Windows admin password k8s Worker nodes"  
 }
 

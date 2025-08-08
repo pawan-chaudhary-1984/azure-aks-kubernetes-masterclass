@@ -45,7 +45,7 @@ resource "azurerm_kubernetes_cluster" "aks_cluster" {
     os_disk_size_gb = 30
     type = "VirtualMachineScaleSets"
     node_labels = {
-      "nodepool-type" : "system"
+      "nodepool-type" = "system"
       "environment" = "dev"
       "nodepools" = "linux"
       "app" = "system-apps"

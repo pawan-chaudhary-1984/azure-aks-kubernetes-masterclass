@@ -7,8 +7,8 @@ resource "azurerm_resource_group" "aks_rg" {
 
 resource "azurerm_public_ip" "aks_lb_public_ip" {
   name                = "aks-lb-public-ip"
-  location            = azurerm_resource_group.aks_rg.location
-  resource_group_name = azurerm_resource_group.aks_rg.name
+  location            = var.location
+  resource_group_name = var.resource_group_name
   allocation_method   = "Static"
   sku                 = "Standard"
 }
